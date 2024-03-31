@@ -13,6 +13,6 @@ def index(request):
 
     return render(request, 'eduprod/index.html',{
         'questions_json': questions_json,
-        'categories': categories 
+        'category': categories 
     })
          
