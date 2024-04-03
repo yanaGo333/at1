@@ -2,4 +2,18 @@
 {% block body %}
 <div id ="content" data-questions='{{ questions_json|safe }}'></div>
 <button id ="revealBtn">Reveal Answer</button> 
-{% endblock %}
+
+<select id="categorySelect">
+
+    <option value="">Select a Category</option>
+    
+    {% for category in categories %}
+    
+    <option value="{{ category }}">{{ category }}</option>
+    
+    {% endfor %}
+
+ </select>
+
+ {% endblock %}
+    

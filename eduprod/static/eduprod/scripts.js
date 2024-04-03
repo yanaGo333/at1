@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     
-    function displayQuestion() {
+    function displayQuestion() {  //displays questions 
     
     if (currentQuestionIndex < filteredQuestions.length) {
     
