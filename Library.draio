@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T04:03:24.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.9" etag="qiPO98z1vJDsNzwPyOMm" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T04:14:35.266Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="CZyhHSs83m3OMaVCBfrd" version="24.4.9" type="github">
   <diagram name="Page-1" id="tFcEGpC9JoXN82MZDo9M">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TwOBuORaCtDOoilKUO9A-5" value="Loans&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-6" value="+Loan Date&amp;nbsp;&lt;br&gt;+Return Date&amp;nbsp;&lt;br&gt;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="TwOBuORaCtDOoilKUO9A-5">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-7" value="Members&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-8" value="+Unique member ID&amp;nbsp;&lt;br&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;Member Name&amp;nbsp;&lt;/span&gt;&lt;div&gt;+Member Mobile&amp;nbsp;&lt;br&gt;&lt;/div&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;Member Address&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="TwOBuORaCtDOoilKUO9A-7">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-9" value="Books" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-10" value="+Unique book ID 9 (PK)&lt;br&gt;+Book&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Title&amp;nbsp;&lt;br&gt;&lt;/span&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;Author&amp;nbsp;&lt;br&gt;&lt;/span&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;Published year&lt;/span&gt;&lt;div&gt;+ISBN&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="TwOBuORaCtDOoilKUO9A-9">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-11" value="Librarians&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TwOBuORaCtDOoilKUO9A-12" value="+Staff ID&lt;br&gt;+Name&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;+Mobile&amp;nbsp;&lt;br&gt;+Email&amp;nbsp;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="TwOBuORaCtDOoilKUO9A-11">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
